@@ -484,6 +484,52 @@ body {
   background-color: var(--green-bg-cl);
 }
 
+/* Footer form */
+
+.footer-form-content {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.footer-btn {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  align-items: center;
+  min-width: 165px;
+  height: 40px;
+  /* padding: 8px 24px; */
+
+  border: none;
+  border-radius: 4px;
+}
+
+/* .footer-form-content {
+  display: flex;
+  flex-wrap: nowrap;
+} */
+/* .footer-form .text-right {
+  margin-bottom: 16px;
+} */
+
+/* .footer-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  gap: 16px;
+
+  min-width: 165px;
+  height: 40px;
+
+  border: none;
+  border-radius: 4px;
+} */
+.footer-icon {
+  fill: var(--white);
+}
+
 /* Modal styles */
 
 .backdrop {
@@ -549,6 +595,19 @@ body {
   fill: var(--white-bg-cl);
   background-color: var(--ocean-bg-cl);
 }
+
+/* .modal-mark {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  left: 20px;
+  top: 20px;
+
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+} */
 
 /* portfolio */
 /* our work */
